@@ -2217,3 +2217,6 @@ Require stack:
 [warn] !  We were unable to load your functions code. (see above) {"metadata":{"emulator":{"name":"functions"}}}
 [debug] [2021-07-08T20:40:45.442Z] [worker-~diagnostic~-eafaeff1-8110-44a9-bf3b-0e58d6d5eeb7]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-eafaeff1-8110-44a9-bf3b-0e58d6d5eeb7]: exited"}}
 [debug] [2021-07-08T20:40:45.442Z] [worker-~diagnostic~-eafaeff1-8110-44a9-bf3b-0e58d6d5eeb7]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-eafaeff1-8110-44a9-bf3b-0e58d6d5eeb7]: FINISHED"}}
+[debug] [2021-07-08T20:47:16.676Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2021-07-08T20:47:16.677Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2021-07-08T20:47:16.687Z] [work-queue] {"queueLength":0,"workRunningCount":0}
