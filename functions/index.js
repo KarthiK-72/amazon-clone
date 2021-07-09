@@ -1,23 +1,22 @@
 /* eslint-disable indent */
+/* eslint-disable no-unused-vars */
 /* eslint-disable object-curly-spacing */
 /* eslint-disable max-len */
 const functions = require("firebase-functions");
 const express = require("express");
 const cors = require("cors");
-
-// eslint-disable-next-line no-unused-vars
+// eslint-disable-next-line max-len
 const stripe = require("stripe")(
-  // eslint-disable-next-line max-len
-  "sk_test_51J9DOlSF7tQRNhd2ze8QTWGPtPFFeCuziNVCeUsA1YZsMzYKLUCn8gCgFEnG3nhuTlwBCU53TioMnUnCD9ffvN6l00uxqz9lDv"
+  "pk_test_51J9DOlSF7tQRNhd2bqYNFEH4q11ymWZu6NkwsAADKqdIuGA2fkNFZuTA7lC0EWuTgXMC4gIE328X3oaHGzn7mfg700PS5txIct"
 );
-
-// API
 
 const app = express();
 
+// - Middlewares
 app.use(cors({ origin: true }));
 app.use(express.json());
 
+// - API routes
 app.get("/", (request, response) => response.status(200).send("hello world"));
 
 exports.api = functions.https.onRequest(app);
