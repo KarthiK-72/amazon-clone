@@ -8,7 +8,7 @@ const cors = require("cors");
 // eslint-disable-next-line no-unused-vars
 const stripe = require("stripe")(
   // eslint-disable-next-line max-len
-  "pk_test_51J9DOlSF7tQRNhd2bqYNFEH4q11ymWZu6NkwsAADKqdIuGA2fkNFZuTA7lC0EWuTgXMC4gIE328X3oaHGzn7mfg700PS5txIct"
+  "sk_test_51J9DOlSF7tQRNhd2ze8QTWGPtPFFeCuziNVCeUsA1YZsMzYKLUCn8gCgFEnG3nhuTlwBCU53TioMnUnCD9ffvN6l00uxqz9lDv"
 );
 
 // API
